@@ -1,0 +1,4 @@
+# Problem Summary (1 Paragraph)
+A seller chooses a price in the range of $0 to $70. The revenue per customer is the price times the probability of buying. This presents a tradeoff: higher prices mean more per sale but fewer sales. We want to determine the ideal price, but the true demand curve is unknown. The only information we can gather comes from running experiments through the sales() function which are noisy (random customer counts and random purchases). Every experiment costs something: if we show a customer a bad price, we earn less. The goal is to find the best possible price while capturing as much of the optimal $11.925 per customer during the search. The revenue curve has multiple local peaks, so a method may center on a price that looks ideal but isn't.
+
+# Design (2 paragraphs)
